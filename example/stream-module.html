@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stream module</title>
+    <link rel="stylesheet" href="../stream.css">
+    <style>
+    body {
+      margin: 3em;
+      font-family: Georgia, serif;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      font-weight: normal;
+    }
+
+    .stream {
+      max-width: 30em;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1>News stream</h1>
+
+    <ol class="stream js-stream">
+      <li class="stream__item">
+        <div class="stream__item__content">
+          <h2>Call for MPs to sit longer days</h2>
+          <p>Margaret Hodge, who chairs the public accounts committee, urges coalition to extend schedule at Westminster</p>
+          <time>2013-04-22T10:00:49.250Z</time>
+        </div>
+      </li>
+      <li class="stream__item">
+        <div class="stream__item__content">
+          <h2>Deadly earthquake rocks China</h2>
+          <p>Sichuan quake leaves 200 people dead or missing, 11,800 injured and an estimated 100,000 homeless</p>
+          <time>2013-04-22T09:00:33.211Z</time>
+        </div>
+      </li>
+    </ol>
+
+    <script data-main="stream-module.js" src="../components/requirejs/require.js"></script>
+  </body>
+</html>

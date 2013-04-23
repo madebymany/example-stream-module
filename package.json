@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "grunt-template-jasmine-requirejs": "~0.1.1",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-jasmine": "~0.4.1",
+    "grunt-cli": "0.1.6",
+    "grunt": "0.4.1",
+    "phantomjs": "1.8.2-0"
+  }
+}

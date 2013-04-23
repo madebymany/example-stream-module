@@ -1,0 +1,26 @@
+/* Stream module */
+
+.stream {
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 5px #ccc;
+}
+
+.stream__item {
+  overflow: hidden;
+  height: 14em;
+  -webkit-transition: all 500ms ease;
+}
+
+.stream__item:not(:last-child) {
+  border-bottom: 1px solid #aaa;
+}
+
+.is-hidden.stream__item {
+  height: 0;
+}
+
+.stream__item__content {
+  margin: 2em;
+}
