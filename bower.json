@@ -1,17 +1,12 @@
 {
   "name": "stream-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "stream.js",
   "dependencies": {
     "bigbird": "~0.2.2",
     "requirejs": "~2.1.5",
     "jquery": "~2.0.0"
   },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "components"
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/madebymany/example-stream-module.git"
