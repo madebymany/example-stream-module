@@ -1,6 +1,6 @@
 {
   "name": "stream-module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "stream.js",
   "dependencies": {
     "bigbird": "~0.2.2",

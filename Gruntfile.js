@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     meta: {
-      version: "0.0.2",
+      version: "0.0.3",
     },
 
     jasmine: {
