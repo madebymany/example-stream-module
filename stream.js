@@ -44,9 +44,8 @@ function($, BigBird) {
       node = $(template);
       node.prependTo(this.$el);
 
-      setTimeout(function() {
-        node.removeClass("is-hidden");
-      }, 0);
+      var queryHeight = node.height();
+      node.removeClass("is-hidden");
     }
 
   });
