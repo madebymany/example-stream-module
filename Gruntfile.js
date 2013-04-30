@@ -4,10 +4,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-jasmine");
 
   grunt.initConfig({
-    meta: {
-      version: "0.0.3",
-    },
-
     jasmine: {
       stream: {
         src: "stream.js",
